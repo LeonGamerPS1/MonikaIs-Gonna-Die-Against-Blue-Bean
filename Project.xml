@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Kade Engine Community" file="Kade Engine Community" packageName="com.therealjake12.kec" package="com.therealjake12.kec" main="Main" version="1.9.4" company="TheRealJake12" />
+	<app title="KEC: Monika FC Port" file="KEC: Monika FC Port" packageName="com.therealjake12.kec" package="com.therealjake12.kec" main="Main" version="1.9.4" company="TheRealJake12" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -136,11 +136,11 @@
 		<haxelib name="hxvlc" if="VIDEOS" />
 	</section>
 
-	<section if="debug">
+
 		<!--These defines are mostly for testing (aren't required to be used)-->
 		<haxedef name="HXVLC_VERBOSE" value="2" />
 		<haxedef name="HXVLC_LOGGING" />
-	</section>
+	
 
 	<!-- ______________________________ Haxedefines _____________________________ -->
 
